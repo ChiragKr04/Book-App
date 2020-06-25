@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".fragments.ProfileFragment"
+        android:background="#b39ddb"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/colorPrimary"
+            android:layout_margin="5dp">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/book_app_icon"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:fitsSystemWindows="true">
+
+            <TextView
+                android:id="@+id/txtProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile"
+                android:padding="10dp"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_name"
+                android:layout_below="@id/txtProfile"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:padding="5dp"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_email"
+                android:layout_below="@id/txtName"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:padding="5dp"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/txtPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_phone"
+                android:layout_below="@id/txtEmail"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:padding="5dp"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/txtDefaultName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="5dp"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:layout_below="@id/txtProfile"
+                android:text="@string/profile_default_name"/>
+            <TextView
+                android:id="@+id/txtDefaultEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="5dp"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:layout_below="@id/txtDefaultName"
+                android:text="@string/profile_default_email"/>
+            <TextView
+                android:id="@+id/txtDefaultPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:padding="5dp"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:layout_below="@id/txtDefaultEmail"
+                android:text="@string/profile_default_phone"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

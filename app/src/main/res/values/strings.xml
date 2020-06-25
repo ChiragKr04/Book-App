@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Open Book Library</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="favourites">Favourites</string>
+    <string name="profile">Profile</string>
+    <string name="about">About</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dash_board">Dash Board</string>
+    <string name="your_favourites">Your Favourites</string>
+    <string name="my_profile">My Profile</string>
+    <string name="about_us">About Us</string>
+    <string name="profile_name">Name:</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_phone">Phone Number</string>
+    <string name="profile_default_name">Default Name</string>
+    <string name="profile_default_email">Default Email</string>
+    <string name="profile_default_phone">Default Phone</string>
+    <string name="btn_text_log_out">Log Out</string>
+    <string name="rating">rating</string>
+    <string name="download">Download</string>
+    <string name="about_book">About the book:</string>
+    <string name="add_to_favourite">Add to favourite</string>
+    <string name="sort">Sort</string>
+</resources>
