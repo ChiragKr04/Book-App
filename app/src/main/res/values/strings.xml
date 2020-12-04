@@ -1,27 +1,39 @@
 <resources>
-    <string name="app_name">Open Book Library</string>
-    <string name="dashboard">Dashboard</string>
+    <string name="app_name">BookStore</string>
+    <string name="dashboard">Home</string>
     <string name="favourites">Favourites</string>
     <string name="profile">Profile</string>
-    <string name="about">About</string>
-    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="about_app">About App</string>
+    <string name="navigation_drawer">Book Store</string>
     <string name="open_drawer">Open Drawer</string>
     <string name="close_drawer">Close Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="dash_board">Dash Board</string>
-    <string name="your_favourites">Your Favourites</string>
-    <string name="my_profile">My Profile</string>
-    <string name="about_us">About Us</string>
-    <string name="profile_name">Name:</string>
-    <string name="profile_email">Email</string>
-    <string name="profile_phone">Phone Number</string>
-    <string name="profile_default_name">Default Name</string>
-    <string name="profile_default_email">Default Email</string>
-    <string name="profile_default_phone">Default Phone</string>
-    <string name="btn_text_log_out">Log Out</string>
-    <string name="rating">rating</string>
-    <string name="download">Download</string>
-    <string name="about_book">About the book:</string>
-    <string name="add_to_favourite">Add to favourite</string>
-    <string name="sort">Sort</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="favourites_fragment">Favourites Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="about_app_fragment">About App Fragment</string>
+    <string name="add_to_favourites">Favourites</string>
+    <string name="action_sort">Sort</string>
+
+    <string name="faq_answer_one">A.1 Chirag Bargoojar and Dhruv Maindola build this app
+        using Kotlin+Java and it takes us 2-3 weeks to build this app from scratch.
+    </string>
+    <string name="faq_answer_two">A.2 The purpose of this app to put our learned knowledge towards an app which helps
+        both of us to achieve our goal to become android app developers.
+    </string>
+    <string name="faq_answer_four">A.4 Dhruv Maindola build all the XML/UI layout and design the app cause
+        he is very creative while Chirag Bargoojar build the backend working of app and work on creating good user experience
+    </string>
+    <string name="faq_answer_three">A.3 We get the idea while we are ordering digital books from amazon and kindle.
+        We both came to know that its really easy to build apps like this so we started building. </string>
+    <string name="faq_answer_five">A.5 There are 4 activities, 2 adapter classes, 13-14 XML layouts(UI), 3 database files
+        and an interface for database, 4 fragments and some other files for validation check and internet connection.
+    </string>
+    <string name="faq_answer_six">A.6 We add in-build feature in android for connecting to internet that is
+        ConnectionManager class which is used to connect and check if internet is working. And about data,
+        data is coming from an open source API(Application programming interface) which have the name of books and al the info of particular book.
+    </string>
+
 </resources>
